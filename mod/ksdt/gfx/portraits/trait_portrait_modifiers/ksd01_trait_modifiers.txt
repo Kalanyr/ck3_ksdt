@@ -1,0 +1,45 @@
+﻿ksd_aging = {
+	ksd_slow_aging = {
+		traits = {
+			ksd_slow_aging
+		}
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_age
+				value = 1.0
+				template = old_beauty_1
+			}
+		}
+	}
+
+	ksd_ageless = {
+		traits = {
+			ksd_ageless
+		}
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_age
+				value = 1.0
+				template = no_aging
+			}
+		}
+	}	
+}
+
+ksd_glamour = {
+	ksd_glamour = {
+		traits = {
+			ksd_glamour
+		}
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_type
+				value = 1.0
+				template = body_average
+			}
+		}
+	}
+}

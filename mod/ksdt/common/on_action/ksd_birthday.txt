@@ -1,0 +1,20 @@
+﻿# character having its birthday in root scope
+# tested after age has increased
+on_birthday = {
+	on_actions = {
+		grant_ageless_to_ageless_potential_individual
+	}
+}
+
+grant_ageless_to_ageless_potential_individual = {
+	effect = {
+		if = {
+			limit = {
+				age >= 25
+				has_trait = ksd_ageless_potential
+				NOT = { has_trait = ksd_ageless }
+			}
+			add_trait = ksd_ageless
+		}		
+	}
+}

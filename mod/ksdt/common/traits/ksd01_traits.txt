@@ -1,0 +1,56 @@
+﻿ksd_slow_aging = {
+	opposites = {
+		ksd_ageless
+	}
+	
+	group = ksd_aging
+	level = 1
+	
+	genetic = yes
+	physical = yes
+	good = yes
+		
+	ruler_designer_cost = 0
+
+}
+
+ksd_ageless_potential = {
+	
+	group = ksd_aging
+	level = 2
+	
+	genetic = yes
+	physical = yes
+	good = yes
+		
+	ruler_designer_cost = 0
+
+}
+
+
+ksd_ageless = {
+	opposites = {
+		ksd_slow_aging
+	}
+	
+	#potential = {
+	#	has_trait = ksd_ageless_potential
+	#}
+	minimum_age = 25
+	
+	genetic = no
+	physical = yes
+		
+		
+	ruler_designer_cost = 0
+}
+
+ksd_glamour = {
+	
+	genetic = yes
+	physical = yes
+	good = yes
+		
+	ruler_designer_cost = 0
+
+}

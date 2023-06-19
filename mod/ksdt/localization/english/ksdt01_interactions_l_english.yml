@@ -1,0 +1,4 @@
+﻿l_english:
+ add_special_gene_trait_interaction:0 "#D Add special appearance traits#!"
+ add_glamour_interaction:0 "Add [GetTrait('ksd_glamour').GetName( GetNullCharacter )]"
+ add_timeless_interaction:0 "Add [GetTrait('ksd_ageless').GetName(GetNullCharacter )]"

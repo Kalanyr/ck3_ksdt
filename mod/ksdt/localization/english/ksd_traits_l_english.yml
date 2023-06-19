@@ -1,0 +1,18 @@
+﻿l_english:
+
+
+#Special Gene Traits
+ trait_ksd_slow_aging:0 "Easy Wearing"
+ trait_ksd_slow_aging_desc:0 "This person wears their years well."
+ trait_ksd_slow_aging_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wears their years well."
+ trait_ksd_ageless_potential:"Fey Blood"
+ trait_ksd_ageless_potential_desc:0 "Timeless potential flows in their blood. (Appearance ceases to age at 25)"
+ trait_ksd_ageless_potential_character_desc:0 "Timeless potential flows in [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] blood. (Appearance ceases to age at 25)"
+ trait_ksd_ageless:0 "Timeless Appearance"
+ trait_ksd_ageless_desc:0 "Their appearance is unchanged by the years."
+ trait_ksd_ageless_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] appearance is unchanged by the years."
+ trait_ksd_glamour:0 "Glamour"
+ trait_ksd_glamour_desc:0 "No matter how much or how little they eat their appearance is unchanged."
+ trait_ksd_glamour_character_desc:0 "No matter how much or how little [ROOT.GetCharacter.GetFirstNameNoTooltip] eats [ROOT.GetCharacter.GetHerHis] appearance is unchanged."
+ 
+ trait_ksd_aging:0 "Graceful Agers"

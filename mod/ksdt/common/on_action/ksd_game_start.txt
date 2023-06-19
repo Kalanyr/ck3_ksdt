@@ -1,0 +1,28 @@
+﻿on_game_start_after_lobby = {
+	on_actions = {
+		grant_ageless_to_ageless_potential
+	}
+}
+
+#Cleanup illegal Ruler Designer characters
+grant_ageless_to_ageless_potential = {
+	effect = {
+		if = {
+			limit = {
+				any_living_character = {
+					has_trait = ksd_ageless_potential
+					NOT = { has_trait = ksd_ageless }
+					age >= 25
+				}
+			}
+			every_living_character = {
+				limit = {
+					has_trait = ksd_ageless_potential
+					NOT = { has_trait = ksd_ageless }
+					age >= 25
+				}
+				add_trait = ksd_ageless
+			}
+		}
+	}
+}

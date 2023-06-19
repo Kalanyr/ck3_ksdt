@@ -1,0 +1,71 @@
+﻿add_special_gene_trait_interaction = {
+	category = interaction_debug_main
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	common_interaction = yes
+	interface_priority = -1
+	icon = debug_good
+
+	is_shown = {
+		debug_only = yes
+		OR = {
+			scope:recipient = {
+				NOT = {has_trait = ksd_glamour}
+			}		
+			scope:recipient = {
+				age >= 25
+				NOT = {has_trait = ksd_ageless}
+			}
+		}		
+	}
+
+
+	send_option = {
+		is_shown = {
+			scope:recipient = {
+				NOT = {has_trait = ksd_glamour}
+			}		
+		}
+		flag = glamour
+		localization = add_glamour_interaction
+	}
+	send_option = {
+		is_shown = {
+			scope:recipient = {
+				age >= 25
+				NOT = {has_trait = ksd_ageless}
+			}				
+		}
+		flag = timeless
+		localization = add_timeless_interaction
+	}
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			switch = {
+				trigger = yes
+				scope:glamour = {
+					scope:recipient = {
+						if = {
+							limit = {
+									NOT = {has_trait = ksd_glamour}
+							}
+							add_trait = ksd_glamour
+						}
+					}
+				} 
+				scope:timeless= {
+					scope:recipient = {
+						if = {
+							limit = {
+									NOT = {has_trait = ksd_ageless}
+							}
+							add_trait = ksd_ageless
+						}
+					} 
+				}
+			}
+		}
+	}
+}
+
