@@ -6,4 +6,4 @@ tags={
 	"Alternative History"
 }
 name="Special Gene Traits"
-supported_version="1.9.*"
+supported_version="1.11.*"

@@ -1,0 +1,16 @@
+﻿namespace = special_gene_traits
+
+special_gene_traits.1 = {
+    type = character_event
+    hidden = yes
+    option = {
+		if = {
+			limit = {
+				has_trait = ksd_ageless_potential
+				NOT = { has_trait = ksd_ageless }
+				age >= 25
+			}
+			add_trait = ksd_ageless
+		}
+	}
+}

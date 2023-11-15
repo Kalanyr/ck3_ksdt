@@ -1,0 +1,12 @@
+﻿# Root = New character after being made
+on_ruler_designer_finished = {
+	on_actions = {
+		ksdt_rdf_traits_management
+	}
+}
+
+ksdt_rdf_traits_management = {
+	events = {
+		special_gene_traits.1
+	}
+}
