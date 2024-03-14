@@ -6,5 +6,5 @@ tags={
 	"Alternative History"
 }
 name="Special Gene Traits"
-supported_version="1.11.*"
+supported_version="1.12.*"
 path="mod/ksdt"

@@ -40,6 +40,12 @@ ksd_glamour = {
 				value = 1.0
 				template = body_average
 			}
+			#morph = {
+			#	mode = replace
+			#	gene = gene_baldness
+			#	value = 0.0
+			#	template = no_baldness
+			#}
 		}
 	}
 }
