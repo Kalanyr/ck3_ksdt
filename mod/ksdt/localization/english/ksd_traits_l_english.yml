@@ -2,12 +2,16 @@
 
 
 #Special Gene Traits
- trait_ksd_slow_aging:0 "Easy Wearing"
- trait_ksd_slow_aging_desc:0 "This person wears their years well."
- trait_ksd_slow_aging_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wears their years well."
+ trait_ksd_slow_aging_sa:0 "Easy Wearing"
+ trait_ksd_slow_aging_sa_desc:0 "This person wears their years well."
+ trait_ksd_slow_aging_sa_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] wears their years well."
+
+ trait_ksd_slow_aging:0 "Fey Touched"
+ trait_ksd_slow_aging_desc:0 "This person is less troubled by their years than most."
+ trait_ksd_slow_aging_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is less troubled by [ROOT.GetCharacter.GetHerHis] years than most."
  trait_ksd_ageless_potential:"Fey Blood"
- trait_ksd_ageless_potential_desc:0 "Timeless potential flows in their blood. (Appearance ceases to age at 25)"
- trait_ksd_ageless_potential_character_desc:0 "Timeless potential flows in [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] blood. (Appearance ceases to age at 25)"
+ trait_ksd_ageless_potential_desc:0 "Ageless potential flows in their veins. (Appearance ceases to age at 25)"
+ trait_ksd_ageless_potential_character_desc:0 "Ageless potential flows in [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] veins. (Appearance ceases to age at 25)"
  trait_ksd_ageless:0 "Timeless Appearance"
  trait_ksd_ageless_desc:0 "Their appearance is unchanged by the years."
  trait_ksd_ageless_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] appearance is unchanged by the years."

@@ -1,6 +1,21 @@
-﻿ksd_slow_aging = {
+﻿ksd_slow_aging_sa = {
 	opposites = {
 		ksd_ageless
+		ksd_aging
+	}
+		
+	genetic = yes
+	physical = yes
+	good = yes
+		
+	ruler_designer_cost = 0
+}
+
+
+ksd_slow_aging = {
+	opposites = {
+		ksd_ageless
+		ksd_slow_aging_sa
 	}
 	
 	group = ksd_aging
@@ -15,6 +30,9 @@
 }
 
 ksd_ageless_potential = {
+	opposites = {
+		ksd_slow_aging_sa
+	}
 	
 	group = ksd_aging
 	level = 2
@@ -31,6 +49,7 @@ ksd_ageless_potential = {
 ksd_ageless = {
 	opposites = {
 		ksd_slow_aging
+		ksd_slow_aging_sa
 	}
 	
 	#potential = {

@@ -2,6 +2,7 @@
 	ksd_slow_aging = {
 		traits = {
 			ksd_slow_aging
+			ksd_slow_aging_sa
 		}
 		dna_modifiers = {
 			morph = {
