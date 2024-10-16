@@ -1,4 +1,4 @@
-version="1.3"
+version="1.5"
 tags={
 	"Gameplay"
 	"Portraits"
@@ -6,5 +6,4 @@ tags={
 	"Alternative History"
 }
 name="Special Gene Traits"
-supported_version="1.12.*"
-remote_file_id="2986314586"
+supported_version="1.13.*"
